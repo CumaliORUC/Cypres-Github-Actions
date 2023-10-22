@@ -9,6 +9,6 @@ module.exports = defineConfig({
     },
   },
   env: {
-    BaseUrl:"https://naveenautomationlabs.com/opencart/index.php?route=account/login"
+    BaseURL:"https://naveenautomationlabs.com/opencart/index.php?route=account/login"
   }
 });

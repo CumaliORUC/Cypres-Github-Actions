@@ -14,7 +14,7 @@ export class registerPage {
     }
 
     openURL() {
-        cy.visit(Cypress.env('BaseUrl'))
+        cy.visit(Cypress.env('BaseURL'))
         cy.get(this.weblocators.register, {timeout:6000}).eq(1).click()
     }
  

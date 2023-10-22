@@ -9,7 +9,7 @@ export class homePage {
     }
     
     openHomePage(){
-        cy.visit(Cypress.env('BaseUrl'))
+        cy.visit(Cypress.env('BaseURL'))
     }
     enterLoginEmail(email) {
         cy.get(this.weblocators.loginEmail).type(email)
